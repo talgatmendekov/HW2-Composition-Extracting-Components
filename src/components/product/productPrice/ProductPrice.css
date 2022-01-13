@@ -1,0 +1,18 @@
+.priceBlock{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.priceBlock-oldPrice{
+    text-decoration: line-through;
+    font-weight: 600;
+}
+.priceBlock-currentPrice{
+    background-color: yellow;
+    color: black
+}
+
+.priceBlock-discount{
+    color: red;
+    
+}

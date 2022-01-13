@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductInfo from './components/ProductInfo'
+import ProductInfo from './components/product/productwrapper/ProductInfo'
 import "./App.css"
 
 const products = [
@@ -42,9 +42,9 @@ const products = [
 function App() {
 	return (
 		<div className='App'>
-			<ProductInfo info={products[0].infoName} price={products[0].price} url={products[0].imageUrl}/>
-			<ProductInfo info={products[1].infoName} price={products[1].price} url={products[1].imageUrl}/>
-			
+			{/* <ProductInfo info={products[0].infoName} price={products[0].price} url={products[0].imageUrl}/>
+			<ProductInfo info={products[1].infoName} price={products[1].price} url={products[1].imageUrl}/> */}
+			<ProductInfo productData={products}/>
 		</div>
 	)
 }

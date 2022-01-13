@@ -1,0 +1,11 @@
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10%;
+    background: rgb(37, 36, 36);
+    color: blanchedalmond;
+}   
+
+button:hover{
+    background: rgb(39, 22, 22);;
+}
