@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #CBCFC9;
+    text-align: center;
+}
+
+.product-info{
+    margin-top: 20px;
+    color: rgb(32, 29, 25);
+    
+}
+
+.product-info img{
+    margin: 20px 0;
+    width: 200px;
+    height: 200px;
+}
+
+
+.priceBlock{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.priceBlock-oldPrice{
+    text-decoration: line-through;
+    font-weight: 600;
+}
+.priceBlock-currentPrice{
+    background-color: yellow;
+    color: black
+}
+
+.priceBlock-discount{
+    color: red;
+    
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10%;
+    background: rgb(37, 36, 36);
+    color: blanchedalmond;
+}   
+
+button:hover{
+    background: rgb(39, 22, 22);;
+}
